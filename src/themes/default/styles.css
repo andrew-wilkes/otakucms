@@ -1,0 +1,152 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+}
+
+div {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+img {
+	height: auto;
+}
+
+.header {
+	min-height: 110px;
+	line-height: 110px;
+	width: 100%;
+	color: #31ff00;
+	font-size: 44px;
+	font-weight: bold; /* FF3.6-15 */
+	background: -webkit-linear-gradient(bottom left, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+	background: -o-linear-gradient(bottom left, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+	background: linear-gradient(to top right, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.header ul {
+	margin: 0;
+	padding: 0;
+}
+
+.header li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.header a, .header a:visited {
+	color: #799276;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: #2a78ab;
+}
+
+.middle {
+	clear: both;
+	background-color: #fff;
+	color: #000;
+	width: 100%;
+}
+
+.page {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+	color: #666;
+	overflow:hidden;
+}
+
+.sidebar {
+	width: 200px;
+	float: left;
+	height: 100%;
+	margin: 20px 20px 20px 0;
+	text-align: left;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
+}
+
+.sidebar li {
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0 5px 0;
+}
+
+.sidebar li a, .sidebar li a:visited {
+	text-decoration: none;
+	color: #333184;
+}
+
+.sidebar a, .sidebar a:visited {
+	color: #333184;
+}
+
+.sidebar a:hover, .sidebar li a:hover {
+	color: #2a78ab;
+}
+
+.content {
+	text-align: left;
+	max-width: 680px;
+	line-height: 1.5;
+	margin: 0 auto;
+}
+
+.footer {
+	font-family: Arial, serif;
+	height: 110px;
+	width: 100%;
+	clear: both;
+	color: #fff;
+	padding: 30px 10px;
+}
+
+.footer div {
+	margin-bottom: 20px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer .copy, .footer .copy a, .footer .copy a:visited {
+	color: #fff;
+}
+
+.footer .menu, .footer .menu a, .footer .menu a:visited {
+	color: #afafaf;
+}
+
+.footer .menu a:hover {
+	color: #fff;	
+}
+
+p.note {
+	background: #dfe9ef;
+	color: #1b6da2;
+	font-style: italic;
+	padding: 12px 20px;
+}
+
+h1, h2, h3 {
+	margin-bottom: 0px;
+}
+
+p.meta {
+	font-size: 80%;
+	margin-top: 0;
+}
+
+.content a, .content a:visited {
+	color: #0076cc;
+	text-decoration: none;
+}

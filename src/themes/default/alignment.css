@@ -1,0 +1,54 @@
+/* Alignment */
+img,
+iframe,
+video,
+.ce-element--type-image,
+.ce-element--type-video {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+img.align-left,
+iframe.align-left,
+video.align-left,
+.ce-element--type-image.align-left,
+.ce-element--type-video.align-left {
+  clear: initial;
+  float: left;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+img.align-right,
+iframe.align-right,
+video.align-right,
+.ce-element--type-image.align-right,
+.ce-element--type-video.align-right {
+  clear: initial;
+  float: right;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

@@ -1,0 +1,23 @@
+{
+    "description": "Otaku CMS default theme",
+    "version": "",
+    "author": {
+        "name": "Andrew Wilkes",
+        "email": "",
+        "url": "http://otakucms.com"
+    },
+    "keywords": [],
+    "homepage": "http://otakucms.com",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "menus": ["top","sidebar","blog","footer"],
+    "widget_areas": ["main", "sidebar", "blog"]
+}

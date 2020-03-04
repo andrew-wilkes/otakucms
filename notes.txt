@@ -1,0 +1,34 @@
+To edit code use Sublime Text and open the otaku6 project.
+
+
+To navigate to the working directory
+
+From the command like enter
+otaku6
+
+
+To build the Dashboard code
+
+cd dashboard
+php build.php
+
+This Builds the Dashboard code and copies the files to src/dashboard folder for testing on the PHP server.
+
+
+To build the entire App
+
+tools/php build.php
+
+
+To deploy the App
+
+deploy
+
+
+To run the Node dev server.
+
+cd dashboard
+npm run start
+
+It will listen on http://localhost:3000
+Opens browser window.

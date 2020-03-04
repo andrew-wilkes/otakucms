@@ -1,0 +1,31 @@
+[
+    {
+        "key": "project",
+        "name": "The Project Name",
+        "theme": "default",
+        "notes": "Some notes are here ok"
+    },
+    {
+        "key": "timing",
+        "nextUpdateIntervalMin": 1,
+        "nextUpdateIntervalMax": 3
+    },
+    {
+        "key": "images",
+        "cloud_name": "otakucms",
+        "upload_preset": "xfatibxg",
+        "max_image_width": "800",
+        "max_image_height": "800",
+        "folder": "test"
+    },
+    {
+        "key": "styles",
+        "value": [
+            {
+                "name": "Note",
+                "class": "note",
+                "tags": ["p"]
+            }
+        ]
+    }
+]

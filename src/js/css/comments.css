@@ -1,0 +1,60 @@
+.comment {
+    margin: 10px 0;
+    width: 110%;
+}
+.comment-header {
+    line-height: 1.5em;
+}
+.comment-author { 
+    font-weight: bold;
+    margin-right: 20px;
+}
+.comment-time {
+    font-size: 0.8em;
+}
+.comment-content {
+    min-height: 50px;
+    white-space: pre-line;
+}
+.comment-footer {
+    margin-top: 20px;
+}
+.comment-score {
+    margin-right: 10px;
+    vertical-align: top;
+}
+.comment-icon {
+    margin-right: 20px;
+}
+.comment-thread-header {
+
+}
+
+.help {
+    display: block;
+    font-size: 0.8em;
+}
+.row.help {
+    margin-top: 0;
+}
+.help.danger {
+    color: #ff3860;
+}
+.input.danger, .input:focus.danger {
+    border-color: #ff3860;
+}
+.input {
+    margin-bottom: 1rem;
+}
+
+.column-10 {
+    display: inline-block;
+    min-width: 64px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.column {
+    display: inline-block;
+    max-width: 80%;
+}
